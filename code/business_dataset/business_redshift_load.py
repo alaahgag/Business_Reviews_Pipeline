@@ -14,11 +14,11 @@ def lambda_handler(event, context):
     table_name = 'dim_business'
 
     # Set the Redshift cluster credentials
-    redshift_host = 'default-workgroup.432551400617.us-east-1.redshift-serverless.amazonaws.com'
-    redshift_port = '5439'
-    redshift_dbname = 'dev'
-    redshift_user = 'alaa'
-    redshift_password = 'EngElecll_43'
+    redshift_host = ''
+    redshift_port = ''
+    redshift_dbname = ''
+    redshift_user = ''
+    redshift_password = ''
 
     # Create an S3 client
     s3 = boto3.client('s3')
