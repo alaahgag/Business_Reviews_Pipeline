@@ -48,7 +48,7 @@ def lambda_handler(event, context):
     s3_object_url = f's3://{bucket_name}/{s3_object_name}'
 
     # Set the COPY command
-    copy_command = f"COPY {redshift_table_name} FROM '{s3_object_url}' CREDENTIALS 'aws_access_key_id=AKIAWJNQSSSUWJGF2DBK;aws_secret_access_key=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' DELIMITER ',' CSV IGNOREHEADER 1;"
+    copy_command = f"COPY {redshift_table_name} FROM '{s3_object_url}' CREDENTIALS 'aws_access_key_id=;aws_secret_access_key=' DELIMITER ',' CSV IGNOREHEADER 1;"
 
     # Execute the COPY command
     cur.execute(copy_command)
