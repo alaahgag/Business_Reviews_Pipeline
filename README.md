@@ -18,7 +18,7 @@ The Yelp Business Review Data Pipeline is a comprehensive solution for processin
 
 ## Project Pipeline
 
-![Project Pipeline](Images/project_pipeline.png)
+![Project_pipeline](https://github.com/YMMSSH/Business_Reviews_Pipeline/assets/55538499/e8ebb426-2fca-4f7c-a8f0-e97696c5463f)
 
 ## Technology Stack
 
